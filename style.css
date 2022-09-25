@@ -128,3 +128,41 @@
      SOLUZIONE RESPONSIVE
   ************************************************/
  
+  @media screen and (max-width:767px) {
+    body{
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+    .row{
+        flex-direction: column;
+
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+    .steps .col {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .container {
+        width: 100%;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+}
